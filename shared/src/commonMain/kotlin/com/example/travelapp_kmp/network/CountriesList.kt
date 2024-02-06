@@ -180,6 +180,7 @@ fun getRestCountriesList() = listOf(
     ),
     Country(
         name = "India",
+        flagIcon = Res.drawable.flag_india,
         touristPlaces = listOf(
             TouristPlace(
                 name = "Taj Mahal",
@@ -369,8 +370,9 @@ fun getRestCountriesList() = listOf(
                     Res.drawable.india_dal_lake_8,
                 )
             ),
-        ),
-      Country(
+        )
+    ),
+    Country(
         name = "Pakistan",
         flagIcon = Res.drawable.pk,
         touristPlaces = listOf(
